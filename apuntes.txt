@@ -1,0 +1,12 @@
+npm install react-router-dom
+
+:: Github repo::
+git remote add react_repo_blog_ninja https://github.com/yoshiokiyamusu/react-dojo-blogs.git
+git branch -M main
+git push -u react_repo_blog_ninja main
+
+git add .
+git commit -m "comment"
+git push react_repo_blog_ninja master
+
+git pull corner_repository master
